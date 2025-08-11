@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./style/normalize.css">
+        <link rel="stylesheet" href="./style/style.css">
+
+        <title>Тестовое задания для ресурса постов</title>
+    </head>
+
+    <body>
+        <section class="container">
+            <section class="search-container">
+                <h1>Поиск комментариев</h1>
+                <form id="searchForm">
+                    <input type="text" id="searchInput" placeholder="Введите минимум 3 символа..." minlength="3" required>
+                    <button type="submit" id="searchButton" disabled>Найти</button>
+                </form>
+                <div id="errorMessage" class="error"></div>
+            </section>
+
+            <div id="loading" class="loading">
+                <p>Идет поиск...</p>
+            </div>
+
+            <div id="results" class="results"></div> 
+        </section>
+
+        <script src="./script/app.js"></script>
+    </body>
+</html>
