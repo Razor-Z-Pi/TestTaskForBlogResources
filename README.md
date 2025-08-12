@@ -22,11 +22,11 @@ index.html      | Индексный файл для отображения ст
 # Илюстрации реализации тестового задания
 
 <div align="center">
-  <img src="https://github.com/Razor-Z-Pi/TestTaskForBlogResources/image/work.gif" width="600" height="300"/>
+  <img src="https://github.com/Razor-Z-Pi/TestTaskForBlogResources/blob/master/image/work.gif" width="600" height="300"/>
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://github.com/Razor-Z-Pi/TestTaskForBlogResources/image/Screenshot_work.png" width="600" height="300"/>
+  <img src="https://github.com/Razor-Z-Pi/TestTaskForBlogResources/blob/master/image/Screenshot_work.png" width="600" height="300"/>
 </div>
