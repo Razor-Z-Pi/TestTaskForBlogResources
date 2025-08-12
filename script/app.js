@@ -9,7 +9,11 @@ document.addEventListener('DOMContentLoaded', function() {
     searchInput.addEventListener('input', function() {
         searchButton.disabled = this.value.length < 3;
         if (this.value.length > 0 && this.value.length < 3) {
+<<<<<<< HEAD
+            errorMessage.textContent = 'Введите минимум 3 символа!!!';
+=======
             errorMessage.textContent = 'Введите минимум 3 символа';
+>>>>>>> 134c5c0584c20220c3266d14a90e9f8509badef4
         } else {
             errorMessage.textContent = '';
         }
@@ -21,7 +25,11 @@ document.addEventListener('DOMContentLoaded', function() {
         let searchTerm = searchInput.value.trim();
         
         if (searchTerm.length < 3) {
+<<<<<<< HEAD
+            errorMessage.textContent = 'Введите минимум 3 символа!!!';
+=======
             errorMessage.textContent = 'Введите минимум 3 символа';
+>>>>>>> 134c5c0584c20220c3266d14a90e9f8509badef4
             return;
         }
         
@@ -46,7 +54,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
                 
                 if (data.length === 0) {
+<<<<<<< HEAD
+                    resultsDiv.innerHTML = '<b>Ничего не найдено!!!</b>';
+=======
                     resultsDiv.innerHTML = '<b>Ничего не найдено</b>';
+>>>>>>> 134c5c0584c20220c3266d14a90e9f8509badef4
                     return;
                 }
                 
