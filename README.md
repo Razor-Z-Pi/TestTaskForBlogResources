@@ -3,8 +3,8 @@
 
 ***
 
-1) SQL-запросы для создания БД находяться в <DBrequest.sqp>;
-2) PHP скрипт, который скачает список записей и комментариев к ним и загрузит их в БД в <script/loader.php>
+1) SQL-запросы для создания БД находяться в <b>DBrequest.sqp</b>;
+2) PHP скрипт, который скачает список записей и комментариев к ним и загрузит их в БД в <b>script/loader.php</b>.
 
 Название файла  | Содержание файла
 ----------------|----------------------
@@ -21,8 +21,12 @@ index.html      | Индексный файл для отображения ст
 
 # Илюстрации реализации тестового задания
 
-[Работа проекта](https://github.com/Razor-Z-Pi/TestTaskForBlogResources/image/work.gif)
+<div align="center">
+  <img src="https://github.com/Razor-Z-Pi/TestTaskForBlogResources/image/work.gif" width="600" height="300"/>
+</div>
 
 ---
 
-[Илюстрация проекта](https://github.com/Razor-Z-Pi/TestTaskForBlogResources/image/Screenshot_work.png)
+<div align="center">
+  <img src="https://github.com/Razor-Z-Pi/TestTaskForBlogResources/image/Screenshot_work.png" width="600" height="300"/>
+</div>
